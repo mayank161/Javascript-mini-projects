@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button {
+    position: fixed;
+    border: none;
+    top: 0%;
+    right: 3%;
+    background-color:black;
+    padding: 1%;
+    color: white;
+    transform: translate(100%);
+}
+button.update {
+    transform: translate(-230%);
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    background-color: black;
+    padding: 1%;
+    transform: translate(100%);
+}
+nav.update {
+    transform: translate(0%);
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 1rem;
+}
+nav ul li a {
+    color: white;
+}
+

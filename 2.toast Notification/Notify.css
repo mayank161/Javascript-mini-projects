@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#btn {
+    background-color: blueviolet;
+    padding: 1rem;
+    border-color: black;
+    color: rgb(94, 255, 0);
+}
+
+#container {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+}
+
+.notify {
+    list-style: none;
+    background-color: blueviolet;
+    padding: 1rem;
+    margin: 2%;
+    border-radius: 10%;
+    color: rgb(94, 255, 0);
+}
